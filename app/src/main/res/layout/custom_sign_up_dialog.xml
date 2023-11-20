@@ -32,10 +32,10 @@
         android:background="@drawable/pika"/>
 
     <TextView
-        android:id="@+id/Register"
+        android:id="@+id/LogIn"
         android:layout_width="253dp"
         android:layout_height="wrap_content"
-        android:text="Resgister"
+        android:text="Log In"
         android:textAlignment="center"
         android:textSize="30dp"
         android:textStyle="bold|italic"

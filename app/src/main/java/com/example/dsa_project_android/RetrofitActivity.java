@@ -9,12 +9,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import java.util.List;
 
-import com.example.dsa_project_android.Manager.Manager;
-import com.example.dsa_project_android.Manager.User;
-import com.example.dsa_project_android.Manager.Match;
 import retrofit2.Call;
-import retrofit2.Callback;
-import retrofit2.Response;
+
 
 public class RetrofitActivity extends AppCompatActivity {
 
