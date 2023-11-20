@@ -29,12 +29,12 @@ public class RetrofitActivity extends AppCompatActivity {
                 call.enqueue(new Callback<List<Song>>() {
                     @Override
                     public void onResponse(Call<List<Song>> call, Response<List<Song>> response) {
-                        final TextView textView = (TextView) findViewById(R.id.textView);
+                        final TextView textView = (TextView) findViewById(R.id.username);
                         textView.setText(response.body().toString());
                     }
                     @Override
                     public void onFailure(Call<List<Song>> call, Throwable t) {
-                        final TextView textView = (TextView) findViewById(R.id.textView);
+                        final TextView textView = (TextView) findViewById(R.id.username);
                         textView.setText("Something went wrong: " + t.getMessage());
                     }
                 });
